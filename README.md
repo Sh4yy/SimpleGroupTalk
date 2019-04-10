@@ -30,7 +30,7 @@ A simple group voice chat service implemented over TCP sockets.
 
 ### Todo
 - [ ] Move from TCP to UDP sockets.
-- [ ] Implement end ot end encryption.
+- [ ] Implement end to end encryption.
 - [ ] Implement UDP hole punching for peer to peer connections.
 
-Note that this service is nowhere near production level, hell, it probably has quite a lot of bugs haha. It is implemented as a reference and practice for future projects.
+Note that this service is nowhere near production level, hell, it probably has quite a lot of bugs haha. It is just implemented as a reference and practice for future projects.
