@@ -2,7 +2,11 @@
 A simple group voice chat service implemented over TCP sockets.
 
 ### How to use
-Make sure you have pyaudio installed on your system. Run the server.py to start the server and then run as many client.py as you want. To by typing in 1 in the client terminal, the client will start broadcasting the microphone input data.
+1. Make sure you have pyaudio installed on your system.  
+    - ``` python -m pip install pyaudio ```  
+2. Start the main server by running server.py
+3. Start as many clients by running client.py  
+4. Type in 1 in client's terminal to start broadcasting and anything else to stop
 
 ### Packet Design
 
@@ -25,8 +29,8 @@ Make sure you have pyaudio installed on your system. Run the server.py to start 
 ```
 
 ### Todo
-[ ] Move from TCP to UDP sockets.
-[ ] Implement end ot end encryption.
-[ ] Implement UDP hole punching for peer to peer connections.
+- [ ] Move from TCP to UDP sockets.
+- [ ] Implement end ot end encryption.
+- [ ] Implement UDP hole punching for peer to peer connections.
 
 Note that this service is nowhere near production level, hell, it probably has quite a lot of bugs haha. It is implemented as a reference and practice for future projects.
